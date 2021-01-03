@@ -18,13 +18,13 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-  small_dogs = dog_breeds.pop(2)
+  @dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  small_dogs = @dog_breeds.pop(2)
 end
 
 def using_shift(array)
-  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = my_favorite_cities.shift
+  @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  im_so_over_this_city = @my_favorite_cities.shift
 end
 
 def shift_with_args(array)
